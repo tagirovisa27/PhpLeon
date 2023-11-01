@@ -1,3 +1,10 @@
-input {
-    margin-top: 20px;
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 400px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 30px;
 }
