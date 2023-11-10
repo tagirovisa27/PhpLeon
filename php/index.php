@@ -1,12 +1,12 @@
 <?php
 class Animal
 {
-    private $age;
-    private $height;
-    private $length;
-    private $voice;
-    private $hasTail;
-
+    private int $age;
+    private int $height;
+    private int $length;
+    private string $voice;
+    private true $hasTail;
+    
     public function satAge(int $age) {
         $this->age = $age;
     }
@@ -29,6 +29,12 @@ class Animal
         $this->voice = $voice;
     }
     public function getVoice(string $voice) {
-        $this->$voice;
+       return $this->$voice;
+    }
+    public function setHasTail(true $hasTail) {
+       $this->$hasTail;
+    }
+    public function getHasTail(true $hasTail) {
+        return $this->$hasTail;
     }
 }
