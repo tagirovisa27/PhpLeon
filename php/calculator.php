@@ -16,6 +16,9 @@ class Calculator
     public function calculator(string $operation, int $a, int $b) 
     {
         $this ->additioner->process($a , $b);
+        $this -> subtraction->process($b , $a);
+        $this -> subtraction->process($a , $b);
+        $this -> subtraction->process($b , $a);
     }
 }
 
